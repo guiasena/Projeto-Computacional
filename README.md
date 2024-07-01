@@ -9,11 +9,11 @@
 <img loading="lazy" src="https://img.shields.io/badge/SFML%20-8CC84B"/>
 </p>
 <h2>Funcionalidades</h2>
-<ol>
+<ul>
 <li>Controle do pássaro com um único toque (barra de espaço);</li>
 <li>Geração aleatória de canos;</li>
 <li>Detecção de colisões (canos, limite da tela);</li>
 <li>Exibição da pontuação (pontuação e pontuação mais alta)</li>
 <li>Sons de pontuação, colisão e vôo</li>
-</ol>
+</ul>
 
