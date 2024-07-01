@@ -6,4 +6,5 @@
 </p>
 <p align="center">
 <img loading="lazy" src="https://img.shields.io/badge/C++%2020%20-5E97D0"/>
+<img loading="lazy" src="https://img.shields.io/badge/SFML%20-8CC84B"/>
 </p>
