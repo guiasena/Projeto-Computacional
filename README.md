@@ -13,15 +13,27 @@
 <li>Controle do pássaro com um único toque (barra de espaço);</li>
 <li>Geração aleatória de canos;</li>
 <li>Detecção de colisões (canos, limite da tela);</li>
-<li>Exibição da pontuação (pontuação e pontuação mais alta)</li>
-<li>Sons de pontuação, colisão e vôo</li>
+<li>Exibição da pontuação (pontuação e pontuação mais alta);</li>
+<li>Sons de pontuação, colisão e vôo.</li>
 </ul>
 <h2>Como compilar o código</h2>
 <ul>
 <li>Será necessário um compilador c++;</li>
 <li>Instalar e implementar ao projeto a biblioteca SFML {vídeo ensinando};</li>
 <li>Baixe o repositório;</li>
-<li>Abra o projeto no seu ambiente de desenvolvimento (no nosso caso, optamos pelo VS 2022).</li>
-<li>Compile e execute o código fonte</li>
+<li>Abra o projeto no seu ambiente de desenvolvimento (no nosso caso, optamos pelo VS 2022);</li>
+<li>Compile e execute o código fonte.</li>
+</ul>
+<h2>Dependências</h2>
+<ul>
+<li>IDE de sua preferência para compilar o código;</li>
+<li>SFML 2.6.1;</li>
+</ul>
+<h2>Contribuições</h2>
+<ul>
+<li>Guilherme Araujo Sena [241008602] | github.com/guiasena</li>
+<li>Murilo Amorim [matricula] | github.com/muriloferreiraamorim</li>
+<li>Arthur Guimarães [matricula] | github.com/ArturGC79</li>
+
 </ul>
 
