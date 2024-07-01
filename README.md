@@ -16,4 +16,12 @@
 <li>Exibição da pontuação (pontuação e pontuação mais alta)</li>
 <li>Sons de pontuação, colisão e vôo</li>
 </ul>
+<h2>Como compilar o código</h2>
+<ul>
+<li>Será necessário um compilador c++;</li>
+<li>Instalar e implementar ao projeto a biblioteca SFML {vídeo ensinando};</li>
+<li>Baixe o repositório;</li>
+<li>Abra o projeto no seu ambiente de desenvolvimento (no nosso caso, optamos pelo VS 2022).</li>
+<li>Compile e execute o código fonte</li>
+</ul>
 
