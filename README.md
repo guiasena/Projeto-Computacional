@@ -3,5 +3,5 @@
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 <img loading="lazy" src="http://img.shields.io/static/v1?label=UNIVERSIDADE&message=UNB&color=GREEN&style=for-the-badge"/>
-<img loading="lazy" src="http://img.shields.io/static/v1?label=C++&message=20&color=BLUE&style=for-the-badge"/>
+<img loading="lazy" src="https://img.shields.io/badge/C++%2020%20-8A2BE2"/>
 </p>
