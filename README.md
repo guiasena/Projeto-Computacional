@@ -32,7 +32,7 @@
 <h2>Contribuições</h2>
 <ul>
 <li>Guilherme Araujo Sena [241008602] | <a href="https://github.com/guiasena">guiasena</a></li>
-<li>Murilo Amorim [matricula] | <a href="https://github.com/muriloferreiraamorim">muriloferreiraamorim</a></li>
+<li>Murilo Ferreira Amorim [241024633] | <a href="https://github.com/muriloferreiraamorim">muriloferreiraamorim</a></li>
 <li>Arthur Guimarães Coelho [241008540] | <a href="https://github.com/ArturGC79">ArturGC79</a></li>
 
 </ul>
