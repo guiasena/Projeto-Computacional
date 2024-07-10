@@ -35,9 +35,9 @@ int main() {
 	} sounds;
 
 	// Carregar os sons
-	sounds.chingBuffer.loadFromFile("../Resources/audio/score.wav");
-	sounds.hopBuffer.loadFromFile("../Resources/audio/flap.wav");
-	sounds.dishkBuffer.loadFromFile("../Resources/audio/crash.wav");
+	sounds.chingBuffer.loadFromFile("./Resources/audio/score.wav");
+	sounds.hopBuffer.loadFromFile("./Resources/audio/flap.wav");
+	sounds.dishkBuffer.loadFromFile("./Resources/audio/crash.wav");
 	sounds.ching.setBuffer(sounds.chingBuffer);
 	sounds.hop.setBuffer(sounds.hopBuffer);
 	sounds.dishk.setBuffer(sounds.dishkBuffer);
@@ -52,14 +52,14 @@ int main() {
 	} textures;
 
 	// Carregar as texturas
-	textures.background.loadFromFile("../Resources/images/background teste.png");
-	textures.title.loadFromFile("../Resources/images/title.png");
-	textures.pipe.loadFromFile("../Resources/images/pipe.png");
-	textures.gameover.loadFromFile("../Resources/images/gameover.png");
-	textures.flappy[0].loadFromFile("../Resources/images/zaralha1.png");
-	textures.flappy[1].loadFromFile("../Resources/images/zaralha2.png");
-	textures.flappy[2].loadFromFile("../Resources/images/zaralha3.png");
-	textures.flappy[3].loadFromFile("../Resources/images/zaralha4.png");
+	textures.background.loadFromFile("./Resources/images/background teste.png");
+	textures.title.loadFromFile("./Resources/images/title.png");
+	textures.pipe.loadFromFile("./Resources/images/pipe.png");
+	textures.gameover.loadFromFile("./Resources/images/gameover.png");
+	textures.flappy[0].loadFromFile("./Resources/images/zaralha1.png");
+	textures.flappy[1].loadFromFile("./Resources/images/zaralha2.png");
+	textures.flappy[2].loadFromFile("./Resources/images/zaralha3.png");
+	textures.flappy[3].loadFromFile("./Resources/images/zaralha4.png");
 
 	// Estrutura do Flappy | v = velocidade vertical | frame = qual textura?
 	struct Flappy {
@@ -218,10 +218,10 @@ int main() {
 			if (game.frames % 100 == 0) {
 				for (auto itr = pipes.begin(); itr != pipes.end();) {
 					if ((*itr).getPosition().x < -104) {
-						itr = pipes.erase(itr); // Remove o cano e avança o iterador
+						itr = pipes.erase(itr); // Remove o cano e avanÃ§a o iterador
 					}
 					else {
-						++itr; // Avança para o próximo cano
+						++itr; // AvanÃ§a para o prÃ³ximo cano
 					}
 				}
 			}
@@ -258,7 +258,7 @@ int main() {
 			// Flap
 			} else if (event.type == Event::KeyPressed && event.key.code == Keyboard::Space) {
 				if (game.gameState == waiting) {
-					game.gameState = started; // Se você apertar o espaco o jogo muda do status 'waiting' para 'started'. Ou seja, comecou!
+					game.gameState = started; // Se vocÃª apertar o espaco o jogo muda do status 'waiting' para 'started'. Ou seja, comecou!
 				}
 				if (game.gameState == started) {
 					flappy.v = -8;
@@ -289,7 +289,7 @@ int main() {
 		window.draw(game.scoreText);
 		window.draw(game.highscoreText);
 
-		// Titulo do jogo, pressione SPACE para começar!
+		// Titulo do jogo, pressione SPACE para comeÃ§ar!
 		if (game.gameState == waiting) {
 			window.draw(game.title);
 			if (game.frames % 60 < 30) {
