@@ -17,7 +17,7 @@
 <li>Sons de pontuação, colisão e vôo.</li>
 </ul>
 <h2>Screenshots</h2>
-<img src="/Capturas de Tela/2.png">
+<img src="/Screenshots/2.png">
 <h2>Como compilar o código</h2>
 <ul>
 <li>Será necessário um compilador c++;</li>
