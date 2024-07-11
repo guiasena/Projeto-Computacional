@@ -44,7 +44,7 @@ int main() {
 
 	// Agora todas as texturas (o Flappy, como bate as asas, possui 3 texturas)
 	struct Textures {
-		Texture flappy[4]; // Passaro
+		Texture flappy[3]; // Passaro
 		Texture pipe; // Cano
 		Texture background; // Plano de fundo
 		Texture gameover; // Perdeu PlayBoy
@@ -52,14 +52,13 @@ int main() {
 	} textures;
 
 	// Carregar as texturas
-	textures.background.loadFromFile("./Resources/images/background teste.png");
+	textures.background.loadFromFile("./Resources/images/background.png");
 	textures.title.loadFromFile("./Resources/images/title.png");
 	textures.pipe.loadFromFile("./Resources/images/pipe.png");
 	textures.gameover.loadFromFile("./Resources/images/gameover.png");
 	textures.flappy[0].loadFromFile("./Resources/images/zaralha1.png");
 	textures.flappy[1].loadFromFile("./Resources/images/zaralha2.png");
 	textures.flappy[2].loadFromFile("./Resources/images/zaralha3.png");
-	textures.flappy[3].loadFromFile("./Resources/images/zaralha4.png");
 
 	// Estrutura do Flappy | v = velocidade vertical | frame = qual textura?
 	struct Flappy {
@@ -114,13 +113,13 @@ int main() {
 	game.gameover.setScale(2, 2);
 	game.pressSpace.setString("Pressione SPACE para comecar"); // O tal do texto
 	game.pressSpace.setFont(game.font);
-	game.pressSpace.setFillColor(Color::White); // Cor das letras
+	game.pressSpace.setFillColor(Color::Black); // Cor das letras
 	game.pressSpace.setCharacterSize(50); // Tamanho das letras
 	game.pressSpace.setOrigin(game.pressC.getLocalBounds().width / 2, 0);
 	game.pressSpace.setPosition(100, 250);
 	game.pressC.setString("Pressione C para continuar"); 
 	game.pressC.setFont(game.font); 
-	game.pressC.setFillColor(Color::White); 
+	game.pressC.setFillColor(Color::Black); 
 	game.pressC.setCharacterSize(50); 
 	game.pressC.setOrigin(game.pressC.getLocalBounds().width / 2, 0); 
 	game.pressC.setPosition(500, 250); 
