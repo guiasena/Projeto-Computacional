@@ -1,7 +1,7 @@
 <h1 align="center">Projeto Computacional</h1>
 <p>Este projeto é uma recriação do clássico jogo Flappy Bird, escrito em C++ e implementando a biblioteca SFML. Nele, você controla um pássaro enquanto ele navega por entre canos. O objetivo é manter o pássaro voando e evitar colidir com os canos para alcançar a maior pontuação possível. A construção do projeto foi feita usando a IDE Visual Studio 2022.<br>Obs: Optamos por fazer o design do personagem e outras coisas =)</p>
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO%20&color=GREEN&style=for-the-badge"/>
 <img loading="lazy" src="http://img.shields.io/static/v1?label=UNIVERSIDADE&message=UNB&color=215966&style=for-the-badge"/>
 </p>
 <p align="center">
@@ -37,6 +37,8 @@
 <li>Guilherme Araujo Sena [241008602] | <a href="https://github.com/guiasena">guiasena</a></li>
 <li>Murilo Ferreira Amorim [241024633] | <a href="https://github.com/muriloferreiraamorim">muriloferreiraamorim</a></li>
 <li>Arthur Guimarães Coelho [241008540] | <a href="https://github.com/ArturGC79">ArturGC79</a></li>
+<li>Pedro Abílio Cruzeiro Moreira [241031923] | <a href="https://github.com/">ArturGC79</a></li>
+<li>Rafael Furtado Andrade [241024544] | <a href="https://github.com/">ArturGC79</a></li>
 
 </ul>
 
