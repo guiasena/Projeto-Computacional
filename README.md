@@ -37,7 +37,7 @@
 <li>Guilherme Araujo Sena [241008602] | <a href="https://github.com/guiasena">guiasena</a></li>
 <li>Murilo Ferreira Amorim [241024633] | <a href="https://github.com/muriloferreiraamorim">muriloferreiraamorim</a></li>
 <li>Arthur Guimarães Coelho [241008540] | <a href="https://github.com/ArturGC79">ArturGC79</a></li>
-<li>Pedro Abílio Cruzeiro Moreira [241031923] | <a href="https://github.com/">pedroabilio</a></li>
+<li>Pedro Abílio Cruzeiro Moreira [241031923] | <a href="https://github.com/audinex">audinex</a></li>
 <li>Rafael Furtado Andrade [241024544] | <a href="https://github.com/">rafaelfurtado</a></li>
 
 </ul>
