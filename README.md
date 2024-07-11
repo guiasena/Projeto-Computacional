@@ -23,6 +23,7 @@
 <li>Baixe o repositório;</li>
 <li>Abra o projeto no seu ambiente de desenvolvimento (no nosso caso, optamos pelo VS 2022);</li>
 <li>Compile e execute o código fonte.</li>
+<li>Vídeo explicativo : https://youtu.be/gHSZDM0vro0</li>
 </ul>
 <h2>Dependências</h2>
 <ul>
