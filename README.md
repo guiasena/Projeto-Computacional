@@ -30,7 +30,7 @@
 <li>IDE de sua preferência para compilar o código;</li>
 <li>SFML 2.6.1;</li>
 </ul>
-<h2>Contribuições</h2>
+<h2>Colaboradores</h2>
 <ul>
 <li>Guilherme Araujo Sena [241008602] | <a href="https://github.com/guiasena">guiasena</a></li>
 <li>Murilo Ferreira Amorim [241024633] | <a href="https://github.com/muriloferreiraamorim">muriloferreiraamorim</a></li>
