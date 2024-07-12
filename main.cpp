@@ -18,7 +18,7 @@ bool collision(float x1, float y1, float w1, float h1, float x2, float y2, float
 }
 
 int main() {
-	// Cria uma janela e as determinadas configuracoe
+	// Cria uma janela e as determinadas configuracoes
 	RenderWindow window(VideoMode(HEIGHT_SCREEN, WIDTH_SCREEN), "Flappy Bird (Zaralha's Version)");
 	window.setFramerateLimit(60);
 	window.setKeyRepeatEnabled(false);
