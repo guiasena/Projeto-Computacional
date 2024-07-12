@@ -1,10 +1,10 @@
-#include<SFML/Graphics.hpp>
-#include<SFML/Audio.hpp>
-#include<stdlib.h>
-#include<time.h>
-#include<vector>
-#include<iostream>
-#define WIDTH_SCREEN 600
+#include<SFML/Graphics.hpp> // faz parte do módulo de gráficos da SFML. Ele contém classes e funcionalidades para renderização de gráficos 2D, como desenho de formas, texturas, sprites e manipulação de janelas
+#include<SFML/Audio.hpp> // faz parte do módulo de áudio da SFML. Ele contém classes e funcionalidades para reprodução de sons e música.
+#include<stdlib.h> // Manipulação de memória, geração de números aleatórios, execução de comandos no sistema, etc.
+#include<time.h> // Manipulação de unidades de tempo
+#include<vector> // Bloco de memória reservado para guarda dados.
+#include<iostream> // Arquivo de cabeçalho padrão
+#define WIDTH_SCREEN 600 
 #define HEIGHT_SCREEN 1000
 using namespace std;
 using namespace sf;
